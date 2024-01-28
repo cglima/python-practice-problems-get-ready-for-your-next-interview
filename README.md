@@ -1,13 +1,11 @@
 # Python Practice Problems
 
-Unittest stubs for ["Python Practice Problems."](https://realpython.com/python-practice-problems/)
+["Python Practice Problems."](https://realpython.com/python-practice-problems/)
 
 ## Running the Tests
 
-To run the test for a given problem, use `unittest` from the Python standard library;
+To run the test for a given problem, use `pytest` from the Python standard library;
 
 ```console
-$ python -m unittest integersums.py
+$ pytest
 ```
-
-The above example will run the unit tests for the first practice problem.
