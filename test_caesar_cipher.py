@@ -19,6 +19,16 @@
 """
 
 def caesar(plain_text, n):
+    """Resumo da Cifra de César:
+    - O código implementa a cifra de César, que é uma técnica de criptografia
+    de substituição em que cada letra no texto original é deslocada por um número
+    fixo de posições no alfabeto.
+    - Caracteres não alfabéticos são mantidos inalterados.
+    - O código trata maiúsculas e minúsculas de maneira independente.
+    - O deslocamento é determinado pelo parâmetro n. Se n for positivo, 
+    a cifra será uma cifra de César com deslocamento para frente; se n for negativo, 
+    será uma cifra de César com deslocamento para trás.
+    """
     cipher_text = ''
     for char in plain_text:
         if char.isalpha():
